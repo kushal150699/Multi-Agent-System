@@ -3,8 +3,7 @@
 Assuming that you have already installed the required packages. 
 To run the code in WSL (Windows Subsystem for Linux), follow these steps:
 
-**Build the package**:
-   ```bash
+```bash
   colcon build
 
   source ~/.bashrc
