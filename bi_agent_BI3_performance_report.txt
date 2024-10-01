@@ -1,0 +1,4 @@
+Performance Report for BI Agent BI3 (Building B3):
+Total CI Agents Guided: 1
+Total OOS Violations: 0
+Performance Score: 10.00

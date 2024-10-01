@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from campus_tour_interfaces/msg/AccessDenied.msg
+// generated code does not contain a copyright notice
+
+
+module campus_tour_interfaces {
+  module msg {
+    struct AccessDenied {
+      string visitor_id;
+
+      string reason;
+    };
+  };
+};

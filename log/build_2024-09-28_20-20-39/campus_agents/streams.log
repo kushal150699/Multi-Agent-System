@@ -1,0 +1,24 @@
+[4.567s] Invoking command in '/home/kushal/ros2_ws/src/campus_agents': PYTHONPATH=/home/kushal/ros2_ws/build/campus_agents/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kushal/ros2_ws/install/campus_agents/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/campus_agents build --build-base /home/kushal/ros2_ws/build/campus_agents/build install --record /home/kushal/ros2_ws/build/campus_agents/install.log --single-version-externally-managed install_data
+[5.861s] running egg_info
+[5.865s] writing ../../build/campus_agents/campus_agents.egg-info/PKG-INFO
+[5.867s] writing dependency_links to ../../build/campus_agents/campus_agents.egg-info/dependency_links.txt
+[5.869s] writing entry points to ../../build/campus_agents/campus_agents.egg-info/entry_points.txt
+[5.870s] writing requirements to ../../build/campus_agents/campus_agents.egg-info/requires.txt
+[5.870s] writing top-level names to ../../build/campus_agents/campus_agents.egg-info/top_level.txt
+[5.879s] reading manifest file '../../build/campus_agents/campus_agents.egg-info/SOURCES.txt'
+[5.884s] writing manifest file '../../build/campus_agents/campus_agents.egg-info/SOURCES.txt'
+[5.886s] running build
+[5.886s] running build_py
+[5.887s] copying campus_agents/agents.py -> /home/kushal/ros2_ws/build/campus_agents/build/lib/campus_agents
+[5.889s] running install
+[5.889s] running install_lib
+[5.894s] copying /home/kushal/ros2_ws/build/campus_agents/build/lib/campus_agents/agents.py -> /home/kushal/ros2_ws/install/campus_agents/lib/python3.10/site-packages/campus_agents
+[5.897s] byte-compiling /home/kushal/ros2_ws/install/campus_agents/lib/python3.10/site-packages/campus_agents/agents.py to agents.cpython-310.pyc
+[5.930s] running install_data
+[5.932s] running install_egg_info
+[5.941s] removing '/home/kushal/ros2_ws/install/campus_agents/lib/python3.10/site-packages/campus_agents-0.0.0-py3.10.egg-info' (and everything under it)
+[5.943s] Copying ../../build/campus_agents/campus_agents.egg-info to /home/kushal/ros2_ws/install/campus_agents/lib/python3.10/site-packages/campus_agents-0.0.0-py3.10.egg-info
+[5.949s] running install_scripts
+[6.049s] Installing test_node script to /home/kushal/ros2_ws/install/campus_agents/lib/campus_agents
+[6.051s] writing list of installed files to '/home/kushal/ros2_ws/build/campus_agents/install.log'
+[6.163s] Invoked command in '/home/kushal/ros2_ws/src/campus_agents' returned '0': PYTHONPATH=/home/kushal/ros2_ws/build/campus_agents/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kushal/ros2_ws/install/campus_agents/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/campus_agents build --build-base /home/kushal/ros2_ws/build/campus_agents/build install --record /home/kushal/ros2_ws/build/campus_agents/install.log --single-version-externally-managed install_data

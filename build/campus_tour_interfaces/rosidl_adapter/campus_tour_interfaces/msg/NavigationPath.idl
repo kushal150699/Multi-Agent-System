@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from campus_tour_interfaces/msg/NavigationPath.msg
+// generated code does not contain a copyright notice
+
+
+module campus_tour_interfaces {
+  module msg {
+    struct NavigationPath {
+      string visitor_id;
+
+      string host_id;
+
+      sequence<string> path;
+    };
+  };
+};

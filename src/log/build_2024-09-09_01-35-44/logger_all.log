@@ -1,0 +1,187 @@
+[0.250s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.250s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7f237bb400>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f7f237bafb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f7f237bafb0>>)
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.373s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kushal/ros2_ws/src'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(campus_agents) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(campus_agents) by extension 'ignore'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(campus_agents) by extension 'ignore_ament_install'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(campus_agents) by extensions ['colcon_pkg']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(campus_agents) by extension 'colcon_pkg'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(campus_agents) by extensions ['colcon_meta']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(campus_agents) by extension 'colcon_meta'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(campus_agents) by extensions ['ros']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(campus_agents) by extension 'ros'
+[0.387s] DEBUG:colcon.colcon_core.package_identification:Package 'campus_agents' with type 'ros.ament_python' and name 'campus_agents'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(campus_tour_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(campus_tour_interfaces) by extension 'ignore'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(campus_tour_interfaces) by extension 'ignore_ament_install'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(campus_tour_interfaces) by extensions ['colcon_pkg']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(campus_tour_interfaces) by extension 'colcon_pkg'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(campus_tour_interfaces) by extensions ['colcon_meta']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(campus_tour_interfaces) by extension 'colcon_meta'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(campus_tour_interfaces) by extensions ['ros']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(campus_tour_interfaces) by extension 'ros'
+[0.388s] DEBUG:colcon.colcon_core.package_identification:Package 'campus_tour_interfaces' with type 'ros.ament_cmake' and name 'campus_tour_interfaces'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.408s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/kushal/ros2_ws/install
+[0.410s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.411s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'campus_tour_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'campus_tour_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'campus_tour_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'campus_tour_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'campus_tour_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'campus_tour_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'campus_tour_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'campus_tour_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'campus_tour_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.457s] DEBUG:colcon.colcon_core.verb:Building package 'campus_tour_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kushal/ros2_ws/src/build/campus_tour_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kushal/ros2_ws/src/install/campus_tour_interfaces', 'merge_install': False, 'path': '/home/kushal/ros2_ws/src/campus_tour_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'campus_agents' build argument 'cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'campus_agents' build argument 'cmake_target' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'campus_agents' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'campus_agents' build argument 'cmake_clean_cache' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'campus_agents' build argument 'cmake_clean_first' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'campus_agents' build argument 'cmake_force_configure' from command line to 'False'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'campus_agents' build argument 'ament_cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'campus_agents' build argument 'catkin_cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'campus_agents' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.457s] DEBUG:colcon.colcon_core.verb:Building package 'campus_agents' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kushal/ros2_ws/src/build/campus_agents', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kushal/ros2_ws/src/install/campus_agents', 'merge_install': False, 'path': '/home/kushal/ros2_ws/src/campus_agents', 'symlink_install': False, 'test_result_base': None}
+[0.458s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.459s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.459s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kushal/ros2_ws/src/campus_tour_interfaces' with build type 'ament_cmake'
+[0.459s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kushal/ros2_ws/src/campus_tour_interfaces'
+[0.462s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.462s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.462s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kushal/ros2_ws/src/build/campus_tour_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kushal/ros2_ws/install/campus_agents:/opt/ros/humble /usr/bin/cmake --build /home/kushal/ros2_ws/src/build/campus_tour_interfaces -- -j16 -l16
+[0.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kushal/ros2_ws/src/build/campus_tour_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kushal/ros2_ws/install/campus_agents:/opt/ros/humble /usr/bin/cmake --build /home/kushal/ros2_ws/src/build/campus_tour_interfaces -- -j16 -l16
+[1.090s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kushal/ros2_ws/src/build/campus_tour_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kushal/ros2_ws/install/campus_agents:/opt/ros/humble /usr/bin/cmake --install /home/kushal/ros2_ws/src/build/campus_tour_interfaces
+[1.289s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(campus_tour_interfaces)
+[1.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kushal/ros2_ws/src/build/campus_tour_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kushal/ros2_ws/install/campus_agents:/opt/ros/humble /usr/bin/cmake --install /home/kushal/ros2_ws/src/build/campus_tour_interfaces
+[1.292s] Level 1:colcon.colcon_core.environment:checking '/home/kushal/ros2_ws/src/install/campus_tour_interfaces' for CMake module files
+[1.293s] Level 1:colcon.colcon_core.environment:checking '/home/kushal/ros2_ws/src/install/campus_tour_interfaces' for CMake config files
+[1.297s] Level 1:colcon.colcon_core.shell:create_environment_hook('campus_tour_interfaces', 'cmake_prefix_path')
+[1.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kushal/ros2_ws/src/install/campus_tour_interfaces/share/campus_tour_interfaces/hook/cmake_prefix_path.ps1'
+[1.298s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kushal/ros2_ws/src/install/campus_tour_interfaces/share/campus_tour_interfaces/hook/cmake_prefix_path.dsv'
+[1.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kushal/ros2_ws/src/install/campus_tour_interfaces/share/campus_tour_interfaces/hook/cmake_prefix_path.sh'
+[1.299s] Level 1:colcon.colcon_core.environment:checking '/home/kushal/ros2_ws/src/install/campus_tour_interfaces/lib'
+[1.299s] Level 1:colcon.colcon_core.shell:create_environment_hook('campus_tour_interfaces', 'ld_library_path_lib')
+[1.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kushal/ros2_ws/src/install/campus_tour_interfaces/share/campus_tour_interfaces/hook/ld_library_path_lib.ps1'
+[1.300s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kushal/ros2_ws/src/install/campus_tour_interfaces/share/campus_tour_interfaces/hook/ld_library_path_lib.dsv'
+[1.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kushal/ros2_ws/src/install/campus_tour_interfaces/share/campus_tour_interfaces/hook/ld_library_path_lib.sh'
+[1.301s] Level 1:colcon.colcon_core.environment:checking '/home/kushal/ros2_ws/src/install/campus_tour_interfaces/bin'
+[1.301s] Level 1:colcon.colcon_core.environment:checking '/home/kushal/ros2_ws/src/install/campus_tour_interfaces/lib/pkgconfig/campus_tour_interfaces.pc'
+[1.301s] Level 1:colcon.colcon_core.environment:checking '/home/kushal/ros2_ws/src/install/campus_tour_interfaces/lib/python3.10/site-packages'
+[1.301s] Level 1:colcon.colcon_core.environment:checking '/home/kushal/ros2_ws/src/install/campus_tour_interfaces/bin'
+[1.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/kushal/ros2_ws/src/install/campus_tour_interfaces/share/campus_tour_interfaces/package.ps1'
+[1.302s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kushal/ros2_ws/src/install/campus_tour_interfaces/share/campus_tour_interfaces/package.dsv'
+[1.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/kushal/ros2_ws/src/install/campus_tour_interfaces/share/campus_tour_interfaces/package.sh'
+[1.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/kushal/ros2_ws/src/install/campus_tour_interfaces/share/campus_tour_interfaces/package.bash'
+[1.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/kushal/ros2_ws/src/install/campus_tour_interfaces/share/campus_tour_interfaces/package.zsh'
+[1.304s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kushal/ros2_ws/src/install/campus_tour_interfaces/share/colcon-core/packages/campus_tour_interfaces)
+[1.437s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(campus_tour_interfaces)
+[1.437s] Level 1:colcon.colcon_core.environment:checking '/home/kushal/ros2_ws/src/install/campus_tour_interfaces' for CMake module files
+[1.438s] Level 1:colcon.colcon_core.environment:checking '/home/kushal/ros2_ws/src/install/campus_tour_interfaces' for CMake config files
+[1.438s] Level 1:colcon.colcon_core.shell:create_environment_hook('campus_tour_interfaces', 'cmake_prefix_path')
+[1.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kushal/ros2_ws/src/install/campus_tour_interfaces/share/campus_tour_interfaces/hook/cmake_prefix_path.ps1'
+[1.439s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kushal/ros2_ws/src/install/campus_tour_interfaces/share/campus_tour_interfaces/hook/cmake_prefix_path.dsv'
+[1.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kushal/ros2_ws/src/install/campus_tour_interfaces/share/campus_tour_interfaces/hook/cmake_prefix_path.sh'
+[1.439s] Level 1:colcon.colcon_core.environment:checking '/home/kushal/ros2_ws/src/install/campus_tour_interfaces/lib'
+[1.439s] Level 1:colcon.colcon_core.shell:create_environment_hook('campus_tour_interfaces', 'ld_library_path_lib')
+[1.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kushal/ros2_ws/src/install/campus_tour_interfaces/share/campus_tour_interfaces/hook/ld_library_path_lib.ps1'
+[1.440s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kushal/ros2_ws/src/install/campus_tour_interfaces/share/campus_tour_interfaces/hook/ld_library_path_lib.dsv'
+[1.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kushal/ros2_ws/src/install/campus_tour_interfaces/share/campus_tour_interfaces/hook/ld_library_path_lib.sh'
+[1.440s] Level 1:colcon.colcon_core.environment:checking '/home/kushal/ros2_ws/src/install/campus_tour_interfaces/bin'
+[1.440s] Level 1:colcon.colcon_core.environment:checking '/home/kushal/ros2_ws/src/install/campus_tour_interfaces/lib/pkgconfig/campus_tour_interfaces.pc'
+[1.441s] Level 1:colcon.colcon_core.environment:checking '/home/kushal/ros2_ws/src/install/campus_tour_interfaces/lib/python3.10/site-packages'
+[1.441s] Level 1:colcon.colcon_core.environment:checking '/home/kushal/ros2_ws/src/install/campus_tour_interfaces/bin'
+[1.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/kushal/ros2_ws/src/install/campus_tour_interfaces/share/campus_tour_interfaces/package.ps1'
+[1.442s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kushal/ros2_ws/src/install/campus_tour_interfaces/share/campus_tour_interfaces/package.dsv'
+[1.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/kushal/ros2_ws/src/install/campus_tour_interfaces/share/campus_tour_interfaces/package.sh'
+[1.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/kushal/ros2_ws/src/install/campus_tour_interfaces/share/campus_tour_interfaces/package.bash'
+[1.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/kushal/ros2_ws/src/install/campus_tour_interfaces/share/campus_tour_interfaces/package.zsh'
+[1.443s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kushal/ros2_ws/src/install/campus_tour_interfaces/share/colcon-core/packages/campus_tour_interfaces)
+[1.444s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kushal/ros2_ws/src/campus_agents' with build type 'ament_python'
+[1.444s] Level 1:colcon.colcon_core.shell:create_environment_hook('campus_agents', 'ament_prefix_path')
+[1.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kushal/ros2_ws/src/install/campus_agents/share/campus_agents/hook/ament_prefix_path.ps1'
+[1.445s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kushal/ros2_ws/src/install/campus_agents/share/campus_agents/hook/ament_prefix_path.dsv'
+[1.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kushal/ros2_ws/src/install/campus_agents/share/campus_agents/hook/ament_prefix_path.sh'
+[1.447s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.447s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.877s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kushal/ros2_ws/src/campus_agents'
+[1.877s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.877s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.385s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kushal/ros2_ws/src/campus_agents': AMENT_PREFIX_PATH=/home/kushal/ros2_ws/src/install/campus_tour_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kushal/ros2_ws/src/install/campus_tour_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/kushal/ros2_ws/src/install/campus_tour_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kushal/ros2_ws/src/build/campus_agents/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kushal/ros2_ws/src/install/campus_agents/lib/python3.10/site-packages:/home/kushal/ros2_ws/src/install/campus_tour_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/campus_agents build --build-base /home/kushal/ros2_ws/src/build/campus_agents/build install --record /home/kushal/ros2_ws/src/build/campus_agents/install.log --single-version-externally-managed install_data
+[2.665s] Level 1:colcon.colcon_core.environment:checking '/home/kushal/ros2_ws/src/install/campus_agents' for CMake module files
+[2.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kushal/ros2_ws/src/campus_agents' returned '0': AMENT_PREFIX_PATH=/home/kushal/ros2_ws/src/install/campus_tour_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kushal/ros2_ws/src/install/campus_tour_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/kushal/ros2_ws/src/install/campus_tour_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kushal/ros2_ws/src/build/campus_agents/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kushal/ros2_ws/src/install/campus_agents/lib/python3.10/site-packages:/home/kushal/ros2_ws/src/install/campus_tour_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/campus_agents build --build-base /home/kushal/ros2_ws/src/build/campus_agents/build install --record /home/kushal/ros2_ws/src/build/campus_agents/install.log --single-version-externally-managed install_data
+[2.668s] Level 1:colcon.colcon_core.environment:checking '/home/kushal/ros2_ws/src/install/campus_agents' for CMake config files
+[2.672s] Level 1:colcon.colcon_core.environment:checking '/home/kushal/ros2_ws/src/install/campus_agents/lib'
+[2.672s] Level 1:colcon.colcon_core.environment:checking '/home/kushal/ros2_ws/src/install/campus_agents/bin'
+[2.672s] Level 1:colcon.colcon_core.environment:checking '/home/kushal/ros2_ws/src/install/campus_agents/lib/pkgconfig/campus_agents.pc'
+[2.672s] Level 1:colcon.colcon_core.environment:checking '/home/kushal/ros2_ws/src/install/campus_agents/lib/python3.10/site-packages'
+[2.672s] Level 1:colcon.colcon_core.shell:create_environment_hook('campus_agents', 'pythonpath')
+[2.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kushal/ros2_ws/src/install/campus_agents/share/campus_agents/hook/pythonpath.ps1'
+[2.673s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kushal/ros2_ws/src/install/campus_agents/share/campus_agents/hook/pythonpath.dsv'
+[2.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kushal/ros2_ws/src/install/campus_agents/share/campus_agents/hook/pythonpath.sh'
+[2.674s] Level 1:colcon.colcon_core.environment:checking '/home/kushal/ros2_ws/src/install/campus_agents/bin'
+[2.674s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(campus_agents)
+[2.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/kushal/ros2_ws/src/install/campus_agents/share/campus_agents/package.ps1'
+[2.674s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kushal/ros2_ws/src/install/campus_agents/share/campus_agents/package.dsv'
+[2.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/kushal/ros2_ws/src/install/campus_agents/share/campus_agents/package.sh'
+[2.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/kushal/ros2_ws/src/install/campus_agents/share/campus_agents/package.bash'
+[2.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/kushal/ros2_ws/src/install/campus_agents/share/campus_agents/package.zsh'
+[2.676s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kushal/ros2_ws/src/install/campus_agents/share/colcon-core/packages/campus_agents)
+[2.676s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.677s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.677s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.677s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.733s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.733s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.733s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.733s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.733s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[2.733s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.734s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kushal/ros2_ws/src/install/local_setup.ps1'
+[2.735s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kushal/ros2_ws/src/install/_local_setup_util_ps1.py'
+[2.736s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kushal/ros2_ws/src/install/setup.ps1'
+[2.737s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kushal/ros2_ws/src/install/local_setup.sh'
+[2.738s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kushal/ros2_ws/src/install/_local_setup_util_sh.py'
+[2.738s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kushal/ros2_ws/src/install/setup.sh'
+[2.739s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kushal/ros2_ws/src/install/local_setup.bash'
+[2.739s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kushal/ros2_ws/src/install/setup.bash'
+[2.740s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kushal/ros2_ws/src/install/local_setup.zsh'
+[2.740s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kushal/ros2_ws/src/install/setup.zsh'

@@ -1,0 +1,9 @@
+{
+  "package_name": "campus_tour_interfaces",
+  "non_idl_tuples": [
+    "/home/kushal/ros2_ws/src/campus_tour_interfaces:msg/NavigationPath.msg",
+    "/home/kushal/ros2_ws/src/campus_tour_interfaces:msg/AccessDenied.msg",
+    "/home/kushal/ros2_ws/src/campus_tour_interfaces:msg/OutOfService.msg",
+    "/home/kushal/ros2_ws/src/campus_tour_interfaces:msg/VisitorArrival.msg"
+  ]
+}

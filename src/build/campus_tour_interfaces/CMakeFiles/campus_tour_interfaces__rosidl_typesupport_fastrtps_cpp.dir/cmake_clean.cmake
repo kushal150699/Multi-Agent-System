@@ -1,0 +1,25 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/campus_tour_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/campus_tour_interfaces/msg/detail/dds_fastrtps/access_denied__type_support.cpp.o"
+  "CMakeFiles/campus_tour_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/campus_tour_interfaces/msg/detail/dds_fastrtps/access_denied__type_support.cpp.o.d"
+  "CMakeFiles/campus_tour_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/campus_tour_interfaces/msg/detail/dds_fastrtps/navigation_path__type_support.cpp.o"
+  "CMakeFiles/campus_tour_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/campus_tour_interfaces/msg/detail/dds_fastrtps/navigation_path__type_support.cpp.o.d"
+  "CMakeFiles/campus_tour_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/campus_tour_interfaces/msg/detail/dds_fastrtps/out_of_service__type_support.cpp.o"
+  "CMakeFiles/campus_tour_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/campus_tour_interfaces/msg/detail/dds_fastrtps/out_of_service__type_support.cpp.o.d"
+  "CMakeFiles/campus_tour_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/campus_tour_interfaces/msg/detail/dds_fastrtps/visitor_arrival__type_support.cpp.o"
+  "CMakeFiles/campus_tour_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/campus_tour_interfaces/msg/detail/dds_fastrtps/visitor_arrival__type_support.cpp.o.d"
+  "libcampus_tour_interfaces__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libcampus_tour_interfaces__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/campus_tour_interfaces/msg/detail/access_denied__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/campus_tour_interfaces/msg/detail/dds_fastrtps/access_denied__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/campus_tour_interfaces/msg/detail/dds_fastrtps/navigation_path__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/campus_tour_interfaces/msg/detail/dds_fastrtps/out_of_service__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/campus_tour_interfaces/msg/detail/dds_fastrtps/visitor_arrival__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/campus_tour_interfaces/msg/detail/navigation_path__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/campus_tour_interfaces/msg/detail/out_of_service__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/campus_tour_interfaces/msg/detail/visitor_arrival__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/campus_tour_interfaces__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

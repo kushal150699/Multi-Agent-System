@@ -1,0 +1,5 @@
+  File "/home/kushal/ros2_ws/install/campus_agents/lib/python3.10/site-packages/campus_agents/agents.py", line 87
+    class CampusManager:.
+                        ^
+SyntaxError: invalid syntax
+

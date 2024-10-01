@@ -1,0 +1,4 @@
+Performance Report for BI Agent BI2 (Building B2):
+Total CI Agents Guided: 2
+Total OOS Violations: 0
+Performance Score: 20.00

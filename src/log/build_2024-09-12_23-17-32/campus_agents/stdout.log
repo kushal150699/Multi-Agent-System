@@ -1,0 +1,22 @@
+running egg_info
+writing ../build/campus_agents/campus_agents.egg-info/PKG-INFO
+writing dependency_links to ../build/campus_agents/campus_agents.egg-info/dependency_links.txt
+writing entry points to ../build/campus_agents/campus_agents.egg-info/entry_points.txt
+writing requirements to ../build/campus_agents/campus_agents.egg-info/requires.txt
+writing top-level names to ../build/campus_agents/campus_agents.egg-info/top_level.txt
+reading manifest file '../build/campus_agents/campus_agents.egg-info/SOURCES.txt'
+writing manifest file '../build/campus_agents/campus_agents.egg-info/SOURCES.txt'
+running build
+running build_py
+copying campus_agents/agents.py -> /home/kushal/ros2_ws/src/build/campus_agents/build/lib/campus_agents
+running install
+running install_lib
+copying /home/kushal/ros2_ws/src/build/campus_agents/build/lib/campus_agents/agents.py -> /home/kushal/ros2_ws/src/install/campus_agents/lib/python3.10/site-packages/campus_agents
+byte-compiling /home/kushal/ros2_ws/src/install/campus_agents/lib/python3.10/site-packages/campus_agents/agents.py to agents.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/kushal/ros2_ws/src/install/campus_agents/lib/python3.10/site-packages/campus_agents-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/campus_agents/campus_agents.egg-info to /home/kushal/ros2_ws/src/install/campus_agents/lib/python3.10/site-packages/campus_agents-0.0.0-py3.10.egg-info
+running install_scripts
+Installing test_node script to /home/kushal/ros2_ws/src/install/campus_agents/lib/campus_agents
+writing list of installed files to '/home/kushal/ros2_ws/src/build/campus_agents/install.log'

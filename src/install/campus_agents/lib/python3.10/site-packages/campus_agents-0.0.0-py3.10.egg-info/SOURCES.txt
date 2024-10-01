@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../build/campus_agents/campus_agents.egg-info/PKG-INFO
+../build/campus_agents/campus_agents.egg-info/SOURCES.txt
+../build/campus_agents/campus_agents.egg-info/dependency_links.txt
+../build/campus_agents/campus_agents.egg-info/entry_points.txt
+../build/campus_agents/campus_agents.egg-info/requires.txt
+../build/campus_agents/campus_agents.egg-info/top_level.txt
+../build/campus_agents/campus_agents.egg-info/zip-safe
+campus_agents/__init__.py
+campus_agents/agents.py
+campus_agents/agents_basic.py
+resource/campus_agents
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,25 @@
+{
+  "package_name": "campus_tour_interfaces",
+  "output_dir": "/home/kushal/ros2_ws/src/build/campus_tour_interfaces/rosidl_typesupport_introspection_c/campus_tour_interfaces",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource",
+  "idl_tuples": [
+    "/home/kushal/ros2_ws/src/build/campus_tour_interfaces/rosidl_adapter/campus_tour_interfaces:msg/NavigationPath.idl",
+    "/home/kushal/ros2_ws/src/build/campus_tour_interfaces/rosidl_adapter/campus_tour_interfaces:msg/AccessDenied.idl",
+    "/home/kushal/ros2_ws/src/build/campus_tour_interfaces/rosidl_adapter/campus_tour_interfaces:msg/OutOfService.idl",
+    "/home/kushal/ros2_ws/src/build/campus_tour_interfaces/rosidl_adapter/campus_tour_interfaces:msg/VisitorArrival.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_introspection_c/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/idl__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/idl__type_support.c.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/msg__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
+    "/home/kushal/ros2_ws/src/build/campus_tour_interfaces/rosidl_adapter/campus_tour_interfaces/msg/NavigationPath.idl",
+    "/home/kushal/ros2_ws/src/build/campus_tour_interfaces/rosidl_adapter/campus_tour_interfaces/msg/AccessDenied.idl",
+    "/home/kushal/ros2_ws/src/build/campus_tour_interfaces/rosidl_adapter/campus_tour_interfaces/msg/OutOfService.idl",
+    "/home/kushal/ros2_ws/src/build/campus_tour_interfaces/rosidl_adapter/campus_tour_interfaces/msg/VisitorArrival.idl"
+  ]
+}

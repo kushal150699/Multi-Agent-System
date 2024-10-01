@@ -1,0 +1,5 @@
+Performance Report for CI Agent C2:
+Total Visitors Entertained: 2
+Total Violations: 1
+Total Violation Time: 0.18 seconds
+Performance Score: 15.00

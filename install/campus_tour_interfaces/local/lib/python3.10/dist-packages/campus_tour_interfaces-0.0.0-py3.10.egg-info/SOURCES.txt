@@ -1,0 +1,11 @@
+setup.py
+campus_tour_interfaces/__init__.py
+campus_tour_interfaces.egg-info/PKG-INFO
+campus_tour_interfaces.egg-info/SOURCES.txt
+campus_tour_interfaces.egg-info/dependency_links.txt
+campus_tour_interfaces.egg-info/top_level.txt
+campus_tour_interfaces/msg/__init__.py
+campus_tour_interfaces/msg/_access_denied.py
+campus_tour_interfaces/msg/_navigation_path.py
+campus_tour_interfaces/msg/_out_of_service.py
+campus_tour_interfaces/msg/_visitor_arrival.py

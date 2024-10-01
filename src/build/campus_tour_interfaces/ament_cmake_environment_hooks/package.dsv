@@ -1,0 +1,4 @@
+source;share/campus_tour_interfaces/local_setup.bash
+source;share/campus_tour_interfaces/local_setup.dsv
+source;share/campus_tour_interfaces/local_setup.sh
+source;share/campus_tour_interfaces/local_setup.zsh

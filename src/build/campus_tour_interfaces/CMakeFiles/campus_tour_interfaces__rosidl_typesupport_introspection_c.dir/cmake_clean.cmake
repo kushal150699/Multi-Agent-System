@@ -1,0 +1,25 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/campus_tour_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/campus_tour_interfaces/msg/detail/access_denied__type_support.c.o"
+  "CMakeFiles/campus_tour_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/campus_tour_interfaces/msg/detail/access_denied__type_support.c.o.d"
+  "CMakeFiles/campus_tour_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/campus_tour_interfaces/msg/detail/navigation_path__type_support.c.o"
+  "CMakeFiles/campus_tour_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/campus_tour_interfaces/msg/detail/navigation_path__type_support.c.o.d"
+  "CMakeFiles/campus_tour_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/campus_tour_interfaces/msg/detail/out_of_service__type_support.c.o"
+  "CMakeFiles/campus_tour_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/campus_tour_interfaces/msg/detail/out_of_service__type_support.c.o.d"
+  "CMakeFiles/campus_tour_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/campus_tour_interfaces/msg/detail/visitor_arrival__type_support.c.o"
+  "CMakeFiles/campus_tour_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/campus_tour_interfaces/msg/detail/visitor_arrival__type_support.c.o.d"
+  "libcampus_tour_interfaces__rosidl_typesupport_introspection_c.pdb"
+  "libcampus_tour_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/campus_tour_interfaces/msg/detail/access_denied__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/campus_tour_interfaces/msg/detail/access_denied__type_support.c"
+  "rosidl_typesupport_introspection_c/campus_tour_interfaces/msg/detail/navigation_path__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/campus_tour_interfaces/msg/detail/navigation_path__type_support.c"
+  "rosidl_typesupport_introspection_c/campus_tour_interfaces/msg/detail/out_of_service__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/campus_tour_interfaces/msg/detail/out_of_service__type_support.c"
+  "rosidl_typesupport_introspection_c/campus_tour_interfaces/msg/detail/visitor_arrival__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/campus_tour_interfaces/msg/detail/visitor_arrival__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/campus_tour_interfaces__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

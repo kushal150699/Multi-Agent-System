@@ -1,0 +1,4 @@
+Performance Report for BI Agent BI1 (Building B1):
+Total CI Agents Guided: 3
+Total OOS Violations: 1
+Performance Score: 25.00

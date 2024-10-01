@@ -1,0 +1,172 @@
+2024-09-30 18:47:06,134 - VisitorAgent_V1 - INFO - Visitor V1 requested to visit host H2 present at building B1
+2024-09-30 18:47:06,136 - CIAgent_C2 - INFO - Campus Agent C2 met Visitor V1 to visit host H2 present at building B1
+2024-09-30 18:47:06,140 - CIAgent_C2 - INFO - CI Agent C2 moved from Entrance to B1 using vehicle in 2 time units
+2024-09-30 18:47:06,141 - CIAgent_C1 - INFO - Campus Agent C2 met Visitor V1 to visit host H2 present at building B1
+2024-09-30 18:47:08,143 - VisitorAgent_V1 - INFO - Visitor V1 moved from Entrance to B1 using vehicle in 2 time units
+2024-09-30 18:47:08,649 - CIAgent_C1 - INFO - Campus Agent C1 met Visitor V2 to visit host H3 present at building B1
+2024-09-30 18:47:08,650 - VisitorAgent_V2 - INFO - Visitor V2 requested to visit host H3 present at building B1
+2024-09-30 18:47:08,652 - CIAgent_C2 - INFO - Campus Agent C1 met Visitor V2 to visit host H3 present at building B1
+2024-09-30 18:47:08,654 - CIAgent_C1 - INFO - CI Agent C1 moved from Entrance to B1 using vehicle in 2 time units
+2024-09-30 18:47:10,150 - CIAgent_C2 - INFO - CI Agent C2 moved from Entrance to Room1 in building B1
+2024-09-30 18:47:10,657 - VisitorAgent_V2 - INFO - Visitor V2 moved from Entrance to B1 using vehicle in 2 time units
+2024-09-30 18:47:12,153 - VisitorAgent_V1 - INFO - Visitor V1 moved from Entrance to Room1 in building B1
+2024-09-30 18:47:12,663 - CIAgent_C1 - INFO - CI Agent C1 moved from Entrance to Room1 in building B1
+2024-09-30 18:47:14,162 - CIAgent_C2 - INFO - CI Agent C2 moved from Room1 to Room2 in building B1
+2024-09-30 18:47:14,667 - VisitorAgent_V2 - INFO - Visitor V2 moved from Entrance to Room1 in building B1
+2024-09-30 18:47:16,174 - VisitorAgent_V1 - INFO - Visitor V1 moved from Room1 to Room2 in building B1
+2024-09-30 18:47:16,680 - CIAgent_C1 - INFO - CI Agent C1 moved from Room1 to Room2 in building B1
+2024-09-30 18:47:18,177 - CIAgent_C2 - INFO - Visitor V1 meeting host H2 in building B1. Host Unavailable for 6 seconds
+2024-09-30 18:47:18,685 - VisitorAgent_V2 - INFO - Visitor V2 moved from Room1 to Room2 in building B1
+2024-09-30 18:47:20,687 - CIAgent_C1 - INFO - CI Agent C1 moved from Room2 to Room3 in building B1
+2024-09-30 18:47:22,690 - VisitorAgent_V2 - INFO - Visitor V2 moved from Room2 to Room3 in building B1
+2024-09-30 18:47:24,184 - CIAgent_C2 - INFO - CI Agent C2 moved from Room2 to Room1 in building B1
+2024-09-30 18:47:24,694 - CIAgent_C1 - INFO - Visitor V2 meeting host H3 in building B1. Host Unavailable for 6 seconds
+2024-09-30 18:47:26,190 - VisitorAgent_V1 - INFO - Visitor V1 moved from Room2 to Room1 in building B1
+2024-09-30 18:47:29,194 - CIAgent_C2 - INFO - CI Agent C2 moved from Room1 to Entrance in building B1
+2024-09-30 18:47:30,698 - CIAgent_C1 - INFO - CI Agent C1 moved from Room3 to Room2 in building B1
+2024-09-30 18:47:31,202 - VisitorAgent_V1 - INFO - Visitor V1 moved from Room1 to Entrance in building B1
+2024-09-30 18:47:32,701 - VisitorAgent_V2 - INFO - Visitor V2 moved from Room3 to Room2 in building B1
+2024-09-30 18:47:34,206 - VisitorAgent_V1 - INFO - Visitor V1 and CI Agent C2 have left the building
+2024-09-30 18:47:34,207 - CIAgent_C2 - INFO - CI Agent C2 moved from B1 to Entrance using vehicle in 2 time units
+2024-09-30 18:47:35,710 - CIAgent_C1 - INFO - CI Agent C1 moved from Room2 to Room1 in building B1
+2024-09-30 18:47:36,215 - VisitorAgent_V1 - INFO - Visitor V1 moved from B1 to Entrance using vehicle in 2 time units
+2024-09-30 18:47:37,713 - VisitorAgent_V2 - INFO - Visitor V2 moved from Room2 to Room1 in building B1
+2024-09-30 18:47:38,645 - VisitorAgent_V3 - INFO - Visitor V3 requested to visit host H4 present at building B2
+2024-09-30 18:47:38,647 - CIAgent_C2 - INFO - Campus Agent C2 met Visitor V3 to visit host H4 present at building B2
+2024-09-30 18:47:38,647 - CIAgent_C1 - INFO - Campus Agent C2 met Visitor V3 to visit host H4 present at building B2
+2024-09-30 18:47:38,650 - CIAgent_C2 - INFO - CI Agent C2 moved from Entrance to B1 using vehicle in 2 time units
+2024-09-30 18:47:40,656 - CIAgent_C2 - INFO - CI Agent C2 moved from B1 to B2 using vehicle in 2 time units
+2024-09-30 18:47:40,719 - CIAgent_C1 - INFO - CI Agent C1 moved from Room1 to Entrance in building B1
+2024-09-30 18:47:42,659 - VisitorAgent_V3 - INFO - Visitor V3 moved from Entrance to B1 using vehicle in 2 time units
+2024-09-30 18:47:42,722 - VisitorAgent_V2 - INFO - Visitor V2 moved from Room1 to Entrance in building B1
+2024-09-30 18:47:44,662 - VisitorAgent_V3 - INFO - Visitor V3 moved from B1 to B2 using vehicle in 2 time units
+2024-09-30 18:47:45,727 - VisitorAgent_V2 - INFO - Visitor V2 and CI Agent C1 have left the building
+2024-09-30 18:47:45,727 - CIAgent_C1 - INFO - CI Agent C1 moved from B1 to Entrance using vehicle in 2 time units
+2024-09-30 18:47:46,669 - CIAgent_C2 - INFO - CI Agent C2 moved from Entrance to Room1 in building B2
+2024-09-30 18:47:47,731 - VisitorAgent_V2 - INFO - Visitor V2 moved from B1 to Entrance using vehicle in 2 time units
+2024-09-30 18:47:48,674 - VisitorAgent_V3 - INFO - Visitor V3 moved from Entrance to Room1 in building B2
+2024-09-30 18:47:50,652 - CIAgent_C1 - INFO - Campus Agent C1 met Visitor V4 to visit host H10 present at building B4
+2024-09-30 18:47:50,656 - CIAgent_C2 - INFO - Campus Agent C1 met Visitor V4 to visit host H10 present at building B4
+2024-09-30 18:47:50,656 - VisitorAgent_V4 - INFO - Visitor V4 requested to visit host H10 present at building B4
+2024-09-30 18:47:50,667 - CIAgent_C1 - INFO - CI Agent C1 moved from Entrance to B4 using vehicle in 2 time units
+2024-09-30 18:47:50,681 - CIAgent_C2 - INFO - Visitor V3 meeting host H4 in building B2. Host Unavailable for 15 seconds
+2024-09-30 18:47:52,670 - VisitorAgent_V4 - INFO - Visitor V4 moved from Entrance to B4 using vehicle in 2 time units
+2024-09-30 18:47:54,677 - CIAgent_C1 - INFO - CI Agent C1 moved from Entrance to Room1 in building B4
+2024-09-30 18:47:56,680 - VisitorAgent_V4 - INFO - Visitor V4 moved from Entrance to Room1 in building B4
+2024-09-30 18:47:58,683 - CIAgent_C1 - INFO - Visitor V4 meeting host H10 in building B4. Host Unavailable for 14 seconds
+2024-09-30 18:48:05,697 - CIAgent_C2 - INFO - CI Agent C2 moved from Room1 to Entrance in building B2
+2024-09-30 18:48:07,700 - VisitorAgent_V3 - INFO - Visitor V3 moved from Room1 to Entrance in building B2
+2024-09-30 18:48:10,704 - VisitorAgent_V3 - INFO - Visitor V3 and CI Agent C2 have left the building
+2024-09-30 18:48:10,705 - CIAgent_C2 - INFO - CI Agent C2 moved from B2 to B1 using vehicle in 2 time units
+2024-09-30 18:48:12,698 - CIAgent_C1 - INFO - CI Agent C1 moved from Room1 to Entrance in building B4
+2024-09-30 18:48:12,708 - CIAgent_C2 - INFO - CI Agent C2 moved from B1 to Entrance using vehicle in 2 time units
+2024-09-30 18:48:14,701 - VisitorAgent_V4 - INFO - Visitor V4 moved from Room1 to Entrance in building B4
+2024-09-30 18:48:14,711 - VisitorAgent_V3 - INFO - Visitor V3 moved from B2 to B1 using vehicle in 2 time units
+2024-09-30 18:48:16,714 - VisitorAgent_V3 - INFO - Visitor V3 moved from B1 to Entrance using vehicle in 2 time units
+2024-09-30 18:48:17,715 - VisitorAgent_V4 - INFO - Visitor V4 and CI Agent C1 have left the building
+2024-09-30 18:48:17,717 - CIAgent_C1 - INFO - CI Agent C1 moved from B4 to Entrance using vehicle in 2 time units
+2024-09-30 18:48:19,720 - VisitorAgent_V4 - INFO - Visitor V4 moved from B4 to Entrance using vehicle in 2 time units
+2024-09-30 20:54:54,177 - VisitorAgent_V1 - INFO - Visitor V1 requested to visit host BI2 present at building B2
+2024-09-30 20:54:54,179 - CIAgent_C1 - INFO - Campus Agent C3 met Visitor V1 to visit host BI2 present at building B2
+2024-09-30 20:54:54,180 - CIAgent_C2 - INFO - Campus Agent C3 met Visitor V1 to visit host BI2 present at building B2
+2024-09-30 20:54:54,182 - CIAgent_C3 - INFO - Campus Agent C3 met Visitor V1 to visit host BI2 present at building B2
+2024-09-30 20:54:54,187 - CIAgent_C3 - INFO - CI Agent C3 moved from Entrance to B1 using cycle in 10 time units
+2024-09-30 20:54:55,697 - VisitorAgent_V2 - INFO - Visitor V2 requested to visit host H7 present at building B3
+2024-09-30 20:54:55,698 - CIAgent_C3 - INFO - Campus Agent C2 met Visitor V2 to visit host H7 present at building B3
+2024-09-30 20:54:55,700 - CIAgent_C2 - INFO - Campus Agent C2 met Visitor V2 to visit host H7 present at building B3
+2024-09-30 20:54:55,702 - CIAgent_C1 - INFO - Campus Agent C2 met Visitor V2 to visit host H7 present at building B3
+2024-09-30 20:54:55,704 - CIAgent_C2 - INFO - CI Agent C2 moved from Entrance to B4 using cycle in 10 time units
+2024-09-30 20:55:04,197 - CIAgent_C3 - INFO - CI Agent C3 moved from B1 to B2 using cycle in 10 time units
+2024-09-30 20:55:05,727 - CIAgent_C2 - INFO - CI Agent C2 moved from B4 to B3 using cycle in 10 time units
+2024-09-30 20:55:07,697 - CIAgent_C3 - INFO - Campus Agent C1 met Visitor V3 to visit host H2 present at building B1
+2024-09-30 20:55:07,698 - VisitorAgent_V3 - INFO - Visitor V3 requested to visit host H2 present at building B1
+2024-09-30 20:55:07,700 - CIAgent_C1 - INFO - Campus Agent C1 met Visitor V3 to visit host H2 present at building B1
+2024-09-30 20:55:07,702 - CIAgent_C2 - INFO - Campus Agent C1 met Visitor V3 to visit host H2 present at building B1
+2024-09-30 20:55:07,705 - CIAgent_C1 - INFO - CI Agent C1 moved from Entrance to B1 using cycle in 10 time units
+2024-09-30 20:55:14,207 - VisitorAgent_V1 - INFO - Visitor V1 moved from Entrance to B1 using cycle in 10 time units
+2024-09-30 20:55:15,738 - VisitorAgent_V2 - INFO - Visitor V2 moved from Entrance to B4 using cycle in 10 time units
+2024-09-30 20:55:17,731 - VisitorAgent_V3 - INFO - Visitor V3 moved from Entrance to B1 using cycle in 10 time units
+2024-09-30 20:55:24,217 - VisitorAgent_V1 - INFO - Visitor V1 moved from B1 to B2 using cycle in 10 time units
+2024-09-30 20:55:25,749 - VisitorAgent_V2 - INFO - Visitor V2 moved from B4 to B3 using cycle in 10 time units
+2024-09-30 20:55:27,748 - CIAgent_C1 - INFO - CI Agent C1 moved from Entrance to Room1 in building B1
+2024-09-30 20:55:29,752 - VisitorAgent_V3 - INFO - Visitor V3 moved from Entrance to Room1 in building B1
+2024-09-30 20:55:31,755 - CIAgent_C1 - INFO - CI Agent C1 moved from Room1 to Room2 in building B1
+2024-09-30 20:55:33,758 - VisitorAgent_V3 - INFO - Visitor V3 moved from Room1 to Room2 in building B1
+2024-09-30 20:55:34,230 - CIAgent_C3 - INFO - Visitor V1 meeting host BI2 in building B2. Host Unavailable for 11 seconds
+2024-09-30 20:55:35,764 - CIAgent_C2 - INFO - CI Agent C2 moved from Entrance to Room1 in building B3
+2024-09-30 20:55:35,764 - CIAgent_C1 - INFO - Visitor V3 meeting host H2 in building B1. Host Unavailable for 29 seconds
+2024-09-30 20:55:37,767 - VisitorAgent_V2 - INFO - Visitor V2 moved from Entrance to Room1 in building B3
+2024-09-30 20:55:39,778 - CIAgent_C2 - INFO - Visitor V2 meeting host H7 in building B3. Host Unavailable for 11 seconds
+2024-09-30 20:55:45,236 - VisitorAgent_V1 - INFO - Visitor V1 and CI Agent C3 have left the building
+2024-09-30 20:55:45,237 - CIAgent_C3 - INFO - CI Agent C3 moved from B2 to B1 using cycle in 10 time units
+2024-09-30 20:55:50,799 - CIAgent_C2 - INFO - CI Agent C2 moved from Room1 to Entrance in building B3
+2024-09-30 20:55:52,804 - VisitorAgent_V2 - INFO - Visitor V2 moved from Room1 to Entrance in building B3
+2024-09-30 20:55:55,256 - CIAgent_C3 - INFO - CI Agent C3 moved from B1 to Entrance using cycle in 10 time units
+2024-09-30 20:55:55,820 - VisitorAgent_V2 - INFO - Visitor V2 and CI Agent C2 have left the building
+2024-09-30 20:55:55,829 - CIAgent_C2 - INFO - CI Agent C2 moved from B3 to B4 using cycle in 10 time units
+2024-09-30 20:56:04,864 - CIAgent_C1 - INFO - CI Agent C1 moved from Room2 to Room1 in building B1
+2024-09-30 20:56:05,267 - VisitorAgent_V1 - INFO - Visitor V1 moved from B2 to B1 using cycle in 10 time units
+2024-09-30 20:56:05,840 - CIAgent_C2 - INFO - CI Agent C2 moved from B4 to Entrance using cycle in 10 time units
+2024-09-30 20:56:06,868 - VisitorAgent_V3 - INFO - Visitor V3 moved from Room2 to Room1 in building B1
+2024-09-30 20:56:09,891 - CIAgent_C1 - INFO - CI Agent C1 moved from Room1 to Entrance in building B1
+2024-09-30 20:56:11,897 - VisitorAgent_V3 - INFO - Visitor V3 moved from Room1 to Entrance in building B1
+2024-09-30 20:56:14,909 - VisitorAgent_V3 - INFO - Visitor V3 and CI Agent C1 have left the building
+2024-09-30 20:56:14,940 - CIAgent_C1 - INFO - CI Agent C1 moved from B1 to Entrance using cycle in 10 time units
+2024-09-30 20:56:15,278 - VisitorAgent_V1 - INFO - Visitor V1 moved from B1 to Entrance using cycle in 10 time units
+2024-09-30 20:56:15,851 - VisitorAgent_V2 - INFO - Visitor V2 moved from B3 to B4 using cycle in 10 time units
+2024-09-30 20:56:24,951 - VisitorAgent_V3 - INFO - Visitor V3 moved from B1 to Entrance using cycle in 10 time units
+2024-09-30 20:56:25,701 - VisitorAgent_V4 - INFO - Visitor V4 requested to visit host H6 present at building B2
+2024-09-30 20:56:25,702 - CIAgent_C2 - INFO - Campus Agent C3 met Visitor V4 to visit host H6 present at building B2
+2024-09-30 20:56:25,704 - CIAgent_C3 - INFO - Campus Agent C3 met Visitor V4 to visit host H6 present at building B2
+2024-09-30 20:56:25,706 - CIAgent_C1 - INFO - Campus Agent C3 met Visitor V4 to visit host H6 present at building B2
+2024-09-30 20:56:25,723 - CIAgent_C3 - INFO - CI Agent C3 moved from Entrance to B1 using cycle in 10 time units
+2024-09-30 20:56:25,861 - VisitorAgent_V2 - INFO - Visitor V2 moved from B4 to Entrance using cycle in 10 time units
+2024-09-30 20:56:35,700 - CIAgent_C3 - INFO - Campus Agent C1 met Visitor V5 to visit host H2 present at building B1
+2024-09-30 20:56:35,700 - VisitorAgent_V5 - INFO - Visitor V5 requested to visit host H2 present at building B1
+2024-09-30 20:56:35,703 - CIAgent_C1 - INFO - Campus Agent C1 met Visitor V5 to visit host H2 present at building B1
+2024-09-30 20:56:35,703 - CIAgent_C2 - INFO - Campus Agent C1 met Visitor V5 to visit host H2 present at building B1
+2024-09-30 20:56:35,706 - CIAgent_C1 - INFO - CI Agent C1 moved from Entrance to B1 using cycle in 10 time units
+2024-09-30 20:56:35,729 - CIAgent_C3 - INFO - CI Agent C3 moved from B1 to B2 using cycle in 10 time units
+2024-09-30 20:56:36,699 - CIAgent_C2 - INFO - Campus Agent C2 met Visitor V6 to visit host BI1 present at building B1
+2024-09-30 20:56:36,699 - VisitorAgent_V6 - INFO - Visitor V6 requested to visit host BI1 present at building B1
+2024-09-30 20:56:36,705 - CIAgent_C1 - INFO - Campus Agent C2 met Visitor V6 to visit host BI1 present at building B1
+2024-09-30 20:56:36,707 - CIAgent_C3 - INFO - Campus Agent C2 met Visitor V6 to visit host BI1 present at building B1
+2024-09-30 20:56:36,708 - CIAgent_C2 - INFO - CI Agent C2 moved from Entrance to B1 using cycle in 10 time units
+2024-09-30 20:56:45,716 - VisitorAgent_V5 - INFO - Visitor V5 moved from Entrance to B1 using cycle in 10 time units
+2024-09-30 20:56:45,736 - VisitorAgent_V4 - INFO - Visitor V4 moved from Entrance to B1 using cycle in 10 time units
+2024-09-30 20:56:46,721 - VisitorAgent_V6 - INFO - Visitor V6 moved from Entrance to B1 using cycle in 10 time units
+2024-09-30 20:56:55,730 - CIAgent_C1 - INFO - CI Agent C1 moved from Entrance to Room1 in building B1
+2024-09-30 20:56:55,747 - VisitorAgent_V4 - INFO - Visitor V4 moved from B1 to B2 using cycle in 10 time units
+2024-09-30 20:56:56,751 - CIAgent_C2 - INFO - Visitor V6 meeting host BI1 in building B1. Host Unavailable for 29 seconds
+2024-09-30 20:56:57,733 - VisitorAgent_V5 - INFO - Visitor V5 moved from Entrance to Room1 in building B1
+2024-09-30 20:56:59,737 - CIAgent_C1 - INFO - CI Agent C1 moved from Room1 to Room2 in building B1
+2024-09-30 20:57:01,740 - VisitorAgent_V5 - INFO - Visitor V5 moved from Room1 to Room2 in building B1
+2024-09-30 20:57:03,747 - CIAgent_C1 - INFO - Visitor V5 meeting host H2 in building B1. Host Unavailable for 29 seconds
+2024-09-30 20:57:05,760 - CIAgent_C3 - INFO - CI Agent C3 moved from Entrance to Room1 in building B2
+2024-09-30 20:57:07,763 - VisitorAgent_V4 - INFO - Visitor V4 moved from Entrance to Room1 in building B2
+2024-09-30 20:57:09,767 - CIAgent_C3 - INFO - CI Agent C3 moved from Room1 to Room2 in building B2
+2024-09-30 20:57:11,770 - VisitorAgent_V4 - INFO - Visitor V4 moved from Room1 to Room2 in building B2
+2024-09-30 20:57:13,773 - CIAgent_C3 - INFO - CI Agent C3 moved from Room2 to Room3 in building B2
+2024-09-30 20:57:15,776 - VisitorAgent_V4 - INFO - Visitor V4 moved from Room2 to Room3 in building B2
+2024-09-30 20:57:17,778 - CIAgent_C3 - INFO - Visitor V4 meeting host H6 in building B2. Host Unavailable for 11 seconds
+2024-09-30 20:57:25,803 - VisitorAgent_V6 - INFO - Visitor V6 and CI Agent C2 have left the building
+2024-09-30 20:57:25,808 - CIAgent_C2 - INFO - CI Agent C2 moved from B1 to Entrance using cycle in 10 time units
+2024-09-30 20:57:28,791 - CIAgent_C3 - INFO - CI Agent C3 moved from Room3 to Room2 in building B2
+2024-09-30 20:57:30,794 - VisitorAgent_V4 - INFO - Visitor V4 moved from Room3 to Room2 in building B2
+2024-09-30 20:57:32,777 - CIAgent_C1 - INFO - CI Agent C1 moved from Room2 to Room1 in building B1
+2024-09-30 20:57:33,798 - CIAgent_C3 - INFO - CI Agent C3 moved from Room2 to Room1 in building B2
+2024-09-30 20:57:34,796 - VisitorAgent_V5 - INFO - Visitor V5 moved from Room2 to Room1 in building B1
+2024-09-30 20:57:35,801 - VisitorAgent_V4 - INFO - Visitor V4 moved from Room2 to Room1 in building B2
+2024-09-30 20:57:35,816 - VisitorAgent_V6 - INFO - Visitor V6 moved from B1 to Entrance using cycle in 10 time units
+2024-09-30 20:57:37,801 - CIAgent_C1 - INFO - CI Agent C1 moved from Room1 to Entrance in building B1
+2024-09-30 20:57:38,806 - CIAgent_C3 - INFO - CI Agent C3 moved from Room1 to Entrance in building B2
+2024-09-30 20:57:39,804 - VisitorAgent_V5 - INFO - Visitor V5 moved from Room1 to Entrance in building B1
+2024-09-30 20:57:40,810 - VisitorAgent_V4 - INFO - Visitor V4 moved from Room1 to Entrance in building B2
+2024-09-30 20:57:42,808 - VisitorAgent_V5 - INFO - Visitor V5 and CI Agent C1 have left the building
+2024-09-30 20:57:42,809 - CIAgent_C1 - INFO - CI Agent C1 moved from B1 to Entrance using cycle in 10 time units
+2024-09-30 20:57:43,815 - VisitorAgent_V4 - INFO - Visitor V4 and CI Agent C3 have left the building
+2024-09-30 20:57:43,817 - CIAgent_C3 - INFO - CI Agent C3 moved from B2 to B1 using cycle in 10 time units
+2024-09-30 20:57:52,817 - VisitorAgent_V5 - INFO - Visitor V5 moved from B1 to Entrance using cycle in 10 time units
+2024-09-30 20:57:53,830 - CIAgent_C3 - INFO - CI Agent C3 moved from B1 to Entrance using cycle in 10 time units
+2024-09-30 20:58:03,843 - VisitorAgent_V4 - INFO - Visitor V4 moved from B2 to B1 using cycle in 10 time units
+2024-09-30 20:58:13,863 - VisitorAgent_V4 - INFO - Visitor V4 moved from B1 to Entrance using cycle in 10 time units

@@ -1,0 +1,5 @@
+Performance Report for CI Agent C3:
+Total Visitors Entertained: 2
+Total Violations: 1
+Total Violation Time: 18.18 seconds
+Performance Score: 15.00

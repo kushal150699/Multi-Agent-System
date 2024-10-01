@@ -1,0 +1,337 @@
+[0.000000] (-) TimerEvent: {}
+[0.001002] (campus_tour_interfaces) JobQueued: {'identifier': 'campus_tour_interfaces', 'dependencies': OrderedDict()}
+[0.001224] (campus_agents) JobQueued: {'identifier': 'campus_agents', 'dependencies': OrderedDict([('campus_tour_interfaces', '/home/kushal/ros2_ws/install/campus_tour_interfaces')])}
+[0.001418] (campus_tour_interfaces) JobStarted: {'identifier': 'campus_tour_interfaces'}
+[0.039896] (campus_tour_interfaces) JobProgress: {'identifier': 'campus_tour_interfaces', 'progress': 'cmake'}
+[0.048102] (campus_tour_interfaces) JobProgress: {'identifier': 'campus_tour_interfaces', 'progress': 'build'}
+[0.048599] (campus_tour_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kushal/ros2_ws/build/campus_tour_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/kushal/ros2_ws/build/campus_tour_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kushal'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kushal/ros2_ws/install/campus_tour_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kushal'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kushal/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kushal'), ('NAME', 'Kushal'), ('WSL_INTEROP', '/run/WSL/24434_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kushal/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/lenovo/miniconda3:/mnt/c/Users/lenovo/miniconda3/Library/mingw-w64/bin:/mnt/c/Users/lenovo/miniconda3/Library/usr/bin:/mnt/c/Users/lenovo/miniconda3/Library/bin:/mnt/c/Users/lenovo/miniconda3/Scripts:/mnt/c/Users/lenovo/miniconda3/bin:/mnt/c/Users/lenovo/miniconda3/condabin:/mnt/c/Users/lenovo/bin:/mnt/c/Program Files/Git/mingw64/bin:/mnt/c/Program Files/Git/usr/local/bin:/mnt/c/Program Files/Git/usr/bin:/mnt/c/Program Files/Git/usr/bin:/mnt/c/Program Files/Git/mingw64/bin:/mnt/c/Program Files/Git/usr/bin:/mnt/c/Users/lenovo/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp:/mnt/c/Program Files/Python312/Scripts:/mnt/c/Program Files/Python312:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.0:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/lenovo/miniconda3/Library/bin:/mnt/c/Users/lenovo/miniconda3/Scripts:/mnt/c/Users/lenovo/miniconda3/condabin:/mnt/c/Program Files/Git/usr/bin/vendor_perl:/mnt/c/Program Files/Git/usr/bin/core_perl:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/kushal/ros2_ws/install/campus_agents:/home/kushal/ros2_ws/install/campus_tour_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/kushal/ros2_ws/build/campus_tour_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kushal/ros2_ws/install/campus_agents/lib/python3.10/site-packages:/home/kushal/ros2_ws/install/campus_tour_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/kushal/ros2_ws/install/campus_tour_interfaces:/home/kushal/ros2_ws/install/campus_agents:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.094555] (-) TimerEvent: {}
+[0.195935] (-) TimerEvent: {}
+[0.297079] (-) TimerEvent: {}
+[0.306344] (campus_tour_interfaces) StdoutLine: {'line': b'[  1%] Built target campus_tour_interfaces__cpp\n'}
+[0.310010] (campus_tour_interfaces) StdoutLine: {'line': b'[ 12%] Built target campus_tour_interfaces__rosidl_generator_c\n'}
+[0.358159] (campus_tour_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_campus_tour_interfaces\n'}
+[0.397360] (-) TimerEvent: {}
+[0.421087] (campus_tour_interfaces) StdoutLine: {'line': b'[ 23%] Built target campus_tour_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.425033] (campus_tour_interfaces) StdoutLine: {'line': b'[ 34%] Built target campus_tour_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.426522] (campus_tour_interfaces) StdoutLine: {'line': b'[ 45%] Built target campus_tour_interfaces__rosidl_typesupport_c\n'}
+[0.428108] (campus_tour_interfaces) StdoutLine: {'line': b'[ 56%] Built target campus_tour_interfaces__rosidl_typesupport_cpp\n'}
+[0.431684] (campus_tour_interfaces) StdoutLine: {'line': b'[ 67%] Built target campus_tour_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.441675] (campus_tour_interfaces) StdoutLine: {'line': b'[ 78%] Built target campus_tour_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.497791] (-) TimerEvent: {}
+[0.535750] (campus_tour_interfaces) StdoutLine: {'line': b'[ 78%] Built target campus_tour_interfaces\n'}
+[0.598372] (-) TimerEvent: {}
+[0.633950] (campus_tour_interfaces) StdoutLine: {'line': b'[ 80%] Built target campus_tour_interfaces__py\n'}
+[0.698919] (-) TimerEvent: {}
+[0.748706] (campus_tour_interfaces) StdoutLine: {'line': b'[ 89%] Built target campus_tour_interfaces__rosidl_generator_py\n'}
+[0.799610] (-) TimerEvent: {}
+[0.857266] (campus_tour_interfaces) StdoutLine: {'line': b'[100%] Built target campus_tour_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.858081] (campus_tour_interfaces) StdoutLine: {'line': b'[100%] Built target campus_tour_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.858442] (campus_tour_interfaces) StdoutLine: {'line': b'[100%] Built target campus_tour_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.899927] (-) TimerEvent: {}
+[1.001365] (-) TimerEvent: {}
+[1.102505] (-) TimerEvent: {}
+[1.204028] (-) TimerEvent: {}
+[1.305593] (-) TimerEvent: {}
+[1.406810] (-) TimerEvent: {}
+[1.508358] (-) TimerEvent: {}
+[1.609662] (-) TimerEvent: {}
+[1.705698] (campus_tour_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.709907] (campus_tour_interfaces) StdoutLine: {'line': b'writing campus_tour_interfaces.egg-info/PKG-INFO\n'}
+[1.711448] (-) TimerEvent: {}
+[1.712369] (campus_tour_interfaces) StdoutLine: {'line': b'writing dependency_links to campus_tour_interfaces.egg-info/dependency_links.txt\n'}
+[1.714074] (campus_tour_interfaces) StdoutLine: {'line': b'writing top-level names to campus_tour_interfaces.egg-info/top_level.txt\n'}
+[1.724129] (campus_tour_interfaces) StdoutLine: {'line': b"reading manifest file 'campus_tour_interfaces.egg-info/SOURCES.txt'\n"}
+[1.727368] (campus_tour_interfaces) StdoutLine: {'line': b"writing manifest file 'campus_tour_interfaces.egg-info/SOURCES.txt'\n"}
+[1.812084] (-) TimerEvent: {}
+[1.857785] (campus_tour_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_campus_tour_interfaces_egg\n'}
+[1.912374] (-) TimerEvent: {}
+[1.917244] (campus_tour_interfaces) CommandEnded: {'returncode': 0}
+[2.013031] (-) TimerEvent: {}
+[2.114160] (-) TimerEvent: {}
+[2.215309] (-) TimerEvent: {}
+[2.316603] (-) TimerEvent: {}
+[2.417838] (-) TimerEvent: {}
+[2.518947] (-) TimerEvent: {}
+[2.604605] (campus_tour_interfaces) JobProgress: {'identifier': 'campus_tour_interfaces', 'progress': 'install'}
+[2.619507] (-) TimerEvent: {}
+[2.644923] (campus_tour_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kushal/ros2_ws/build/campus_tour_interfaces'], 'cwd': '/home/kushal/ros2_ws/build/campus_tour_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kushal'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/kushal/ros2_ws/install/campus_tour_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kushal'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kushal/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kushal'), ('NAME', 'Kushal'), ('WSL_INTEROP', '/run/WSL/24434_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/kushal/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/lenovo/miniconda3:/mnt/c/Users/lenovo/miniconda3/Library/mingw-w64/bin:/mnt/c/Users/lenovo/miniconda3/Library/usr/bin:/mnt/c/Users/lenovo/miniconda3/Library/bin:/mnt/c/Users/lenovo/miniconda3/Scripts:/mnt/c/Users/lenovo/miniconda3/bin:/mnt/c/Users/lenovo/miniconda3/condabin:/mnt/c/Users/lenovo/bin:/mnt/c/Program Files/Git/mingw64/bin:/mnt/c/Program Files/Git/usr/local/bin:/mnt/c/Program Files/Git/usr/bin:/mnt/c/Program Files/Git/usr/bin:/mnt/c/Program Files/Git/mingw64/bin:/mnt/c/Program Files/Git/usr/bin:/mnt/c/Users/lenovo/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp:/mnt/c/Program Files/Python312/Scripts:/mnt/c/Program Files/Python312:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.0:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/lenovo/miniconda3/Library/bin:/mnt/c/Users/lenovo/miniconda3/Scripts:/mnt/c/Users/lenovo/miniconda3/condabin:/mnt/c/Program Files/Git/usr/bin/vendor_perl:/mnt/c/Program Files/Git/usr/bin/core_perl:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/kushal/ros2_ws/install/campus_agents:/home/kushal/ros2_ws/install/campus_tour_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/kushal/ros2_ws/build/campus_tour_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kushal/ros2_ws/install/campus_agents/lib/python3.10/site-packages:/home/kushal/ros2_ws/install/campus_tour_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/kushal/ros2_ws/install/campus_tour_interfaces:/home/kushal/ros2_ws/install/campus_agents:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[2.684788] (campus_tour_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.686134] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/ament_index/resource_index/rosidl_interfaces/campus_tour_interfaces\n'}
+[2.687536] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces\n'}
+[2.689016] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg\n'}
+[2.690116] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.690764] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/out_of_service.h\n'}
+[2.692077] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/visitor_arrival.h\n'}
+[2.692745] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/access_denied.h\n'}
+[2.693520] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/navigation_path.h\n'}
+[2.694177] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail\n'}
+[2.694879] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/out_of_service__functions.c\n'}
+[2.695948] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/navigation_path__type_support.h\n'}
+[2.696733] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/visitor_arrival__functions.c\n'}
+[2.697777] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/access_denied__struct.h\n'}
+[2.698639] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/visitor_arrival__type_support.h\n'}
+[2.699515] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/access_denied__type_support.h\n'}
+[2.700181] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/visitor_arrival__struct.h\n'}
+[2.700858] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/access_denied__functions.h\n'}
+[2.701470] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/out_of_service__type_support.h\n'}
+[2.702457] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/access_denied__functions.c\n'}
+[2.702889] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/out_of_service__functions.h\n'}
+[2.703443] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/navigation_path__functions.h\n'}
+[2.704960] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/visitor_arrival__functions.h\n'}
+[2.705987] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/out_of_service__struct.h\n'}
+[2.707937] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/navigation_path__functions.c\n'}
+[2.708614] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/navigation_path__struct.h\n'}
+[2.709257] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/environment/library_path.sh\n'}
+[2.709889] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/environment/library_path.dsv\n'}
+[2.711196] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/lib/libcampus_tour_interfaces__rosidl_generator_c.so\n'}
+[2.711889] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces\n'}
+[2.712548] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg\n'}
+[2.713151] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.713837] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail\n'}
+[2.715163] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/navigation_path__rosidl_typesupport_fastrtps_c.h\n'}
+[2.715851] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/out_of_service__rosidl_typesupport_fastrtps_c.h\n'}
+[2.716469] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/access_denied__rosidl_typesupport_fastrtps_c.h\n'}
+[2.717018] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/visitor_arrival__rosidl_typesupport_fastrtps_c.h\n'}
+[2.718091] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/lib/libcampus_tour_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[2.718607] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces\n'}
+[2.719228] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg\n'}
+[2.719823] (-) TimerEvent: {}
+[2.720889] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.721677] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail\n'}
+[2.722327] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/access_denied__type_support.c\n'}
+[2.722936] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/visitor_arrival__rosidl_typesupport_introspection_c.h\n'}
+[2.723572] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/access_denied__rosidl_typesupport_introspection_c.h\n'}
+[2.725405] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/visitor_arrival__type_support.c\n'}
+[2.726243] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/out_of_service__type_support.c\n'}
+[2.726922] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/out_of_service__rosidl_typesupport_introspection_c.h\n'}
+[2.727544] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/navigation_path__rosidl_typesupport_introspection_c.h\n'}
+[2.728150] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/navigation_path__type_support.c\n'}
+[2.728752] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/lib/libcampus_tour_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[2.729347] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/lib/libcampus_tour_interfaces__rosidl_typesupport_c.so\n'}
+[2.730028] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces\n'}
+[2.730632] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg\n'}
+[2.731252] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/out_of_service.hpp\n'}
+[2.731862] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/visitor_arrival.hpp\n'}
+[2.732501] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/navigation_path.hpp\n'}
+[2.733104] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail\n'}
+[2.733709] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/out_of_service__traits.hpp\n'}
+[2.734522] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/visitor_arrival__builder.hpp\n'}
+[2.735148] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/out_of_service__struct.hpp\n'}
+[2.735758] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/visitor_arrival__struct.hpp\n'}
+[2.736362] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/navigation_path__struct.hpp\n'}
+[2.737649] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/access_denied__struct.hpp\n'}
+[2.738116] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/visitor_arrival__traits.hpp\n'}
+[2.738433] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/access_denied__builder.hpp\n'}
+[2.738729] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/navigation_path__traits.hpp\n'}
+[2.738982] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/out_of_service__builder.hpp\n'}
+[2.739225] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/navigation_path__builder.hpp\n'}
+[2.739466] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/access_denied__traits.hpp\n'}
+[2.739718] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/access_denied.hpp\n'}
+[2.739964] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces\n'}
+[2.740207] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg\n'}
+[2.740497] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.740744] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail\n'}
+[2.740980] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/navigation_path__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.741219] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/dds_fastrtps\n'}
+[2.741453] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/access_denied__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.741850] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/out_of_service__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.742141] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/visitor_arrival__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.742391] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/lib/libcampus_tour_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.742629] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces\n'}
+[2.742868] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg\n'}
+[2.743104] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail\n'}
+[2.743370] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/navigation_path__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.743641] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/out_of_service__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.744142] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/visitor_arrival__type_support.cpp\n'}
+[2.744564] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/out_of_service__type_support.cpp\n'}
+[2.744841] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/access_denied__type_support.cpp\n'}
+[2.745086] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/visitor_arrival__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.745329] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/access_denied__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.745567] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/include/campus_tour_interfaces/campus_tour_interfaces/msg/detail/navigation_path__type_support.cpp\n'}
+[2.745802] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/lib/libcampus_tour_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[2.746035] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/lib/libcampus_tour_interfaces__rosidl_typesupport_cpp.so\n'}
+[2.746269] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/environment/pythonpath.sh\n'}
+[2.746505] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/environment/pythonpath.dsv\n'}
+[2.746745] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/local/lib/python3.10/dist-packages/campus_tour_interfaces-0.0.0-py3.10.egg-info\n'}
+[2.746984] (campus_tour_interfaces) StdoutLine: {'line': b'-- Installing: /home/kushal/ros2_ws/install/campus_tour_interfaces/local/lib/python3.10/dist-packages/campus_tour_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.747220] (campus_tour_interfaces) StdoutLine: {'line': b'-- Installing: /home/kushal/ros2_ws/install/campus_tour_interfaces/local/lib/python3.10/dist-packages/campus_tour_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.747498] (campus_tour_interfaces) StdoutLine: {'line': b'-- Installing: /home/kushal/ros2_ws/install/campus_tour_interfaces/local/lib/python3.10/dist-packages/campus_tour_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.747733] (campus_tour_interfaces) StdoutLine: {'line': b'-- Installing: /home/kushal/ros2_ws/install/campus_tour_interfaces/local/lib/python3.10/dist-packages/campus_tour_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.748121] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/local/lib/python3.10/dist-packages/campus_tour_interfaces\n'}
+[2.748400] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/local/lib/python3.10/dist-packages/campus_tour_interfaces/_campus_tour_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.748671] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/local/lib/python3.10/dist-packages/campus_tour_interfaces/__init__.py\n'}
+[2.748908] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/local/lib/python3.10/dist-packages/campus_tour_interfaces/campus_tour_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.749149] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/local/lib/python3.10/dist-packages/campus_tour_interfaces/campus_tour_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.749489] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/local/lib/python3.10/dist-packages/campus_tour_interfaces/libcampus_tour_interfaces__rosidl_generator_py.so\n'}
+[2.749762] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/local/lib/python3.10/dist-packages/campus_tour_interfaces/_campus_tour_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[2.750013] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/local/lib/python3.10/dist-packages/campus_tour_interfaces/_campus_tour_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.750253] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/local/lib/python3.10/dist-packages/campus_tour_interfaces/campus_tour_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.750491] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/local/lib/python3.10/dist-packages/campus_tour_interfaces/msg\n'}
+[2.750752] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/local/lib/python3.10/dist-packages/campus_tour_interfaces/msg/_visitor_arrival.py\n'}
+[2.751004] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/local/lib/python3.10/dist-packages/campus_tour_interfaces/msg/_access_denied.py\n'}
+[2.751241] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/local/lib/python3.10/dist-packages/campus_tour_interfaces/msg/_visitor_arrival_s.c\n'}
+[2.751475] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/local/lib/python3.10/dist-packages/campus_tour_interfaces/msg/_navigation_path_s.c\n'}
+[2.751708] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/local/lib/python3.10/dist-packages/campus_tour_interfaces/msg/__init__.py\n'}
+[2.751941] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/local/lib/python3.10/dist-packages/campus_tour_interfaces/msg/_navigation_path.py\n'}
+[2.752195] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/local/lib/python3.10/dist-packages/campus_tour_interfaces/msg/_out_of_service_s.c\n'}
+[2.752434] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/local/lib/python3.10/dist-packages/campus_tour_interfaces/msg/_out_of_service.py\n'}
+[2.752668] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/local/lib/python3.10/dist-packages/campus_tour_interfaces/msg/_access_denied_s.c\n'}
+[2.820280] (-) TimerEvent: {}
+[2.894343] (campus_tour_interfaces) StdoutLine: {'line': b"Listing '/home/kushal/ros2_ws/install/campus_tour_interfaces/local/lib/python3.10/dist-packages/campus_tour_interfaces'...\n"}
+[2.895140] (campus_tour_interfaces) StdoutLine: {'line': b"Listing '/home/kushal/ros2_ws/install/campus_tour_interfaces/local/lib/python3.10/dist-packages/campus_tour_interfaces/msg'...\n"}
+[2.918072] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/local/lib/python3.10/dist-packages/campus_tour_interfaces/campus_tour_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.919552] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/local/lib/python3.10/dist-packages/campus_tour_interfaces/campus_tour_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.920313] (-) TimerEvent: {}
+[2.921468] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/local/lib/python3.10/dist-packages/campus_tour_interfaces/campus_tour_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.922726] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/lib/libcampus_tour_interfaces__rosidl_generator_py.so\n'}
+[2.924472] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/msg/NavigationPath.idl\n'}
+[2.925519] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/msg/AccessDenied.idl\n'}
+[2.926045] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/msg/OutOfService.idl\n'}
+[2.927735] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/msg/VisitorArrival.idl\n'}
+[2.928230] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/msg/NavigationPath.msg\n'}
+[2.928998] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/msg/AccessDenied.msg\n'}
+[2.930190] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/msg/OutOfService.msg\n'}
+[2.930571] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/msg/VisitorArrival.msg\n'}
+[2.931951] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/ament_index/resource_index/package_run_dependencies/campus_tour_interfaces\n'}
+[2.932831] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/ament_index/resource_index/parent_prefix_path/campus_tour_interfaces\n'}
+[2.934802] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/environment/ament_prefix_path.sh\n'}
+[2.935344] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/environment/ament_prefix_path.dsv\n'}
+[2.936213] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/environment/path.sh\n'}
+[2.936571] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/environment/path.dsv\n'}
+[2.936866] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/local_setup.bash\n'}
+[2.937623] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/local_setup.sh\n'}
+[2.937942] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/local_setup.zsh\n'}
+[2.938610] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/local_setup.dsv\n'}
+[2.939757] (campus_tour_interfaces) StdoutLine: {'line': b'-- Installing: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/package.dsv\n'}
+[2.940430] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/ament_index/resource_index/packages/campus_tour_interfaces\n'}
+[2.941946] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/cmake/export_campus_tour_interfaces__rosidl_generator_cExport.cmake\n'}
+[2.943217] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/cmake/export_campus_tour_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.943595] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/cmake/export_campus_tour_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.943943] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/cmake/export_campus_tour_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.944244] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/cmake/campus_tour_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.944509] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/cmake/campus_tour_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.944756] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/cmake/campus_tour_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[2.945004] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/cmake/campus_tour_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.945315] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/cmake/export_campus_tour_interfaces__rosidl_generator_cppExport.cmake\n'}
+[2.945560] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/cmake/export_campus_tour_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.945798] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/cmake/export_campus_tour_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.946040] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/cmake/campus_tour_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.946288] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/cmake/campus_tour_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.946529] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/cmake/campus_tour_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[2.946765] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/cmake/campus_tour_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.947024] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/cmake/export_campus_tour_interfaces__rosidl_generator_pyExport.cmake\n'}
+[2.947263] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/cmake/export_campus_tour_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.947520] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[2.947763] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.948006] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.948254] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.948676] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.949021] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.949289] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.949539] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/cmake/campus_tour_interfacesConfig.cmake\n'}
+[2.950096] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/cmake/campus_tour_interfacesConfig-version.cmake\n'}
+[2.950748] (campus_tour_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/kushal/ros2_ws/install/campus_tour_interfaces/share/campus_tour_interfaces/package.xml\n'}
+[2.958226] (campus_tour_interfaces) CommandEnded: {'returncode': 0}
+[3.020980] (-) TimerEvent: {}
+[3.122590] (-) TimerEvent: {}
+[3.224212] (-) TimerEvent: {}
+[3.326044] (-) TimerEvent: {}
+[3.427307] (-) TimerEvent: {}
+[3.529562] (-) TimerEvent: {}
+[3.630719] (-) TimerEvent: {}
+[3.732272] (-) TimerEvent: {}
+[3.760577] (campus_tour_interfaces) JobEnded: {'identifier': 'campus_tour_interfaces', 'rc': 0}
+[3.765617] (campus_agents) JobStarted: {'identifier': 'campus_agents'}
+[3.832874] (-) TimerEvent: {}
+[3.934081] (-) TimerEvent: {}
+[4.035179] (-) TimerEvent: {}
+[4.136218] (-) TimerEvent: {}
+[4.237256] (-) TimerEvent: {}
+[4.338364] (-) TimerEvent: {}
+[4.439421] (-) TimerEvent: {}
+[4.540496] (-) TimerEvent: {}
+[4.641615] (-) TimerEvent: {}
+[4.742758] (-) TimerEvent: {}
+[4.844382] (-) TimerEvent: {}
+[4.945533] (-) TimerEvent: {}
+[5.046728] (-) TimerEvent: {}
+[5.148258] (-) TimerEvent: {}
+[5.249731] (-) TimerEvent: {}
+[5.351047] (-) TimerEvent: {}
+[5.452173] (-) TimerEvent: {}
+[5.553307] (-) TimerEvent: {}
+[5.654865] (-) TimerEvent: {}
+[5.755994] (-) TimerEvent: {}
+[5.857251] (-) TimerEvent: {}
+[5.958422] (-) TimerEvent: {}
+[6.059578] (-) TimerEvent: {}
+[6.160677] (-) TimerEvent: {}
+[6.261690] (-) TimerEvent: {}
+[6.362811] (-) TimerEvent: {}
+[6.463986] (-) TimerEvent: {}
+[6.565313] (-) TimerEvent: {}
+[6.666438] (-) TimerEvent: {}
+[6.767704] (-) TimerEvent: {}
+[6.868801] (-) TimerEvent: {}
+[6.969974] (-) TimerEvent: {}
+[7.071090] (-) TimerEvent: {}
+[7.172301] (-) TimerEvent: {}
+[7.274031] (-) TimerEvent: {}
+[7.375309] (-) TimerEvent: {}
+[7.476758] (-) TimerEvent: {}
+[7.578111] (-) TimerEvent: {}
+[7.679538] (-) TimerEvent: {}
+[7.780710] (-) TimerEvent: {}
+[7.881973] (-) TimerEvent: {}
+[7.983555] (-) TimerEvent: {}
+[8.084588] (-) TimerEvent: {}
+[8.185918] (-) TimerEvent: {}
+[8.287381] (-) TimerEvent: {}
+[8.299733] (campus_agents) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/campus_agents', 'build', '--build-base', '/home/kushal/ros2_ws/build/campus_agents/build', 'install', '--record', '/home/kushal/ros2_ws/build/campus_agents/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kushal/ros2_ws/src/campus_agents', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kushal', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/kushal/ros2_ws/install/campus_tour_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kushal', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kushal/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kushal', 'NAME': 'Kushal', 'WSL_INTEROP': '/run/WSL/24434_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/kushal/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/lenovo/miniconda3:/mnt/c/Users/lenovo/miniconda3/Library/mingw-w64/bin:/mnt/c/Users/lenovo/miniconda3/Library/usr/bin:/mnt/c/Users/lenovo/miniconda3/Library/bin:/mnt/c/Users/lenovo/miniconda3/Scripts:/mnt/c/Users/lenovo/miniconda3/bin:/mnt/c/Users/lenovo/miniconda3/condabin:/mnt/c/Users/lenovo/bin:/mnt/c/Program Files/Git/mingw64/bin:/mnt/c/Program Files/Git/usr/local/bin:/mnt/c/Program Files/Git/usr/bin:/mnt/c/Program Files/Git/usr/bin:/mnt/c/Program Files/Git/mingw64/bin:/mnt/c/Program Files/Git/usr/bin:/mnt/c/Users/lenovo/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.1/libnvvp:/mnt/c/Program Files/Python312/Scripts:/mnt/c/Program Files/Python312:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2023.1.0:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/lenovo/miniconda3/Library/bin:/mnt/c/Users/lenovo/miniconda3/Scripts:/mnt/c/Users/lenovo/miniconda3/condabin:/mnt/c/Program Files/Git/usr/bin/vendor_perl:/mnt/c/Program Files/Git/usr/bin/core_perl:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/kushal/ros2_ws/install/campus_agents:/home/kushal/ros2_ws/install/campus_tour_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/kushal/ros2_ws/build/campus_agents', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kushal/ros2_ws/build/campus_agents/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kushal/ros2_ws/install/campus_agents/lib/python3.10/site-packages:/home/kushal/ros2_ws/install/campus_agents/lib/python3.10/site-packages:/home/kushal/ros2_ws/install/campus_tour_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/kushal/ros2_ws/install/campus_tour_interfaces', 'WSLENV': ''}, 'shell': False}
+[8.388199] (-) TimerEvent: {}
+[8.489897] (-) TimerEvent: {}
+[8.591007] (-) TimerEvent: {}
+[8.692109] (-) TimerEvent: {}
+[8.793503] (-) TimerEvent: {}
+[8.895473] (-) TimerEvent: {}
+[8.996869] (-) TimerEvent: {}
+[9.097998] (-) TimerEvent: {}
+[9.199130] (-) TimerEvent: {}
+[9.300252] (-) TimerEvent: {}
+[9.401433] (-) TimerEvent: {}
+[9.502807] (-) TimerEvent: {}
+[9.604103] (-) TimerEvent: {}
+[9.605702] (campus_agents) StdoutLine: {'line': b'running egg_info\n'}
+[9.609126] (campus_agents) StdoutLine: {'line': b'writing ../../build/campus_agents/campus_agents.egg-info/PKG-INFO\n'}
+[9.610509] (campus_agents) StdoutLine: {'line': b'writing dependency_links to ../../build/campus_agents/campus_agents.egg-info/dependency_links.txt\n'}
+[9.611812] (campus_agents) StdoutLine: {'line': b'writing entry points to ../../build/campus_agents/campus_agents.egg-info/entry_points.txt\n'}
+[9.613151] (campus_agents) StdoutLine: {'line': b'writing requirements to ../../build/campus_agents/campus_agents.egg-info/requires.txt\n'}
+[9.614776] (campus_agents) StdoutLine: {'line': b'writing top-level names to ../../build/campus_agents/campus_agents.egg-info/top_level.txt\n'}
+[9.624218] (campus_agents) StdoutLine: {'line': b"reading manifest file '../../build/campus_agents/campus_agents.egg-info/SOURCES.txt'\n"}
+[9.628262] (campus_agents) StdoutLine: {'line': b"writing manifest file '../../build/campus_agents/campus_agents.egg-info/SOURCES.txt'\n"}
+[9.629869] (campus_agents) StdoutLine: {'line': b'running build\n'}
+[9.630648] (campus_agents) StdoutLine: {'line': b'running build_py\n'}
+[9.631921] (campus_agents) StdoutLine: {'line': b'copying campus_agents/agents.py -> /home/kushal/ros2_ws/build/campus_agents/build/lib/campus_agents\n'}
+[9.633035] (campus_agents) StdoutLine: {'line': b'running install\n'}
+[9.634789] (campus_agents) StdoutLine: {'line': b'running install_lib\n'}
+[9.639520] (campus_agents) StdoutLine: {'line': b'copying /home/kushal/ros2_ws/build/campus_agents/build/lib/campus_agents/agents.py -> /home/kushal/ros2_ws/install/campus_agents/lib/python3.10/site-packages/campus_agents\n'}
+[9.643103] (campus_agents) StdoutLine: {'line': b'byte-compiling /home/kushal/ros2_ws/install/campus_agents/lib/python3.10/site-packages/campus_agents/agents.py to agents.cpython-310.pyc\n'}
+[9.652050] (campus_agents) StderrLine: {'line': b'  File "/home/kushal/ros2_ws/install/campus_agents/lib/python3.10/site-packages/campus_agents/agents.py", line 87\n'}
+[9.652866] (campus_agents) StderrLine: {'line': b'    class CampusManager:.\n'}
+[9.653372] (campus_agents) StderrLine: {'line': b'                        ^\n'}
+[9.653664] (campus_agents) StderrLine: {'line': b'SyntaxError: invalid syntax\n'}
+[9.654359] (campus_agents) StderrLine: {'line': b'\n'}
+[9.654674] (campus_agents) StdoutLine: {'line': b'running install_data\n'}
+[9.654996] (campus_agents) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.663749] (campus_agents) StdoutLine: {'line': b"removing '/home/kushal/ros2_ws/install/campus_agents/lib/python3.10/site-packages/campus_agents-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.666572] (campus_agents) StdoutLine: {'line': b'Copying ../../build/campus_agents/campus_agents.egg-info to /home/kushal/ros2_ws/install/campus_agents/lib/python3.10/site-packages/campus_agents-0.0.0-py3.10.egg-info\n'}
+[9.672074] (campus_agents) StdoutLine: {'line': b'running install_scripts\n'}
+[9.704555] (-) TimerEvent: {}
+[9.780402] (campus_agents) StdoutLine: {'line': b'Installing test_node script to /home/kushal/ros2_ws/install/campus_agents/lib/campus_agents\n'}
+[9.783372] (campus_agents) StdoutLine: {'line': b"writing list of installed files to '/home/kushal/ros2_ws/build/campus_agents/install.log'\n"}
+[9.805612] (-) TimerEvent: {}
+[9.894607] (campus_agents) CommandEnded: {'returncode': 0}
+[9.906107] (-) TimerEvent: {}
+[9.926932] (campus_agents) JobEnded: {'identifier': 'campus_agents', 'rc': 0}
+[9.932669] (-) EventReactorShutdown: {}

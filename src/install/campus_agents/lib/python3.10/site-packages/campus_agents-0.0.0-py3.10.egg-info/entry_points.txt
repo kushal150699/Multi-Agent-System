@@ -1,0 +1,3 @@
+[console_scripts]
+test_node = campus_agents.agents:main
+

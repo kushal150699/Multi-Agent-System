@@ -1,0 +1,8 @@
+msg/AccessDenied.idl
+msg/AccessDenied.msg
+msg/NavigationPath.idl
+msg/NavigationPath.msg
+msg/OutOfService.idl
+msg/OutOfService.msg
+msg/VisitorArrival.idl
+msg/VisitorArrival.msg
