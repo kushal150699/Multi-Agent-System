@@ -10,5 +10,6 @@ To run the code in WSL (Windows Subsystem for Linux), follow these steps:
   source ~/.bashrc
 
   ros2 run campus_agents test_node
+```
 
 ![graphical visualization](https://github.com/user-attachments/assets/d92ad051-0ff8-44f5-9c64-65a69ea12a5f)
