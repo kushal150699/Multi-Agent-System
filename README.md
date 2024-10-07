@@ -1,3 +1,7 @@
+## Authors
+- [Kushal Agrawal](https://www.linkedin.com/in/kushal-agrawal-36a387168/)
+- [Ritu Singh](https://www.linkedin.com/in/ritusingh46/)
+
 # Multiagent System for Campus Virtual Tour
 
 This project implements a sophisticated campus tour simulation using ROS2 (Robot Operating System 2) and Python. The system models a campus environment with multiple buildings, hosts, and visitors, managed by different types of intelligent agents capable of dynamic interaction, ensuring efficient and smooth navigation.
@@ -52,9 +56,5 @@ The system tracks agent efficiency based on transport modes:
 - Expand agent roles to include more complex campus scenarios.
 - Integrate with real-world campus maps for enhanced simulation.
 - Implement more robust error handling for agent failures.
-
-## Contributors
-- [Kushal Agrawal](https://www.linkedin.com/in/kushal-agrawal-36a387168/)
-- [Ritu Singh](https://www.linkedin.com/in/ritusingh46/)
 
 ![graphical visualization](https://github.com/user-attachments/assets/d92ad051-0ff8-44f5-9c64-65a69ea12a5f)
